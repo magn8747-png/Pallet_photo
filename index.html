@@ -211,8 +211,9 @@
       };
 
       const attempts = [
-        { video: { facingMode: { exact: 'environment' }, width: { ideal: 1920 }, height: { ideal: 1080 } } },
-        { video: { facingMode: { ideal: 'environment' }, width: { ideal: 1920 }, height: { ideal: 1080 } } },
+        { video: { facingMode: { exact: 'environment' }, width: { ideal: 2560 }, height: { ideal: 1440 } } }, // QHD-ish
+        { video: { facingMode: { ideal: 'environment' }, width: { ideal: 2304 }, height: { ideal: 1296 } } }, // step down
+        { video: { facingMode: { ideal: 'environment' } } },
         { video: true }
       ];
 
